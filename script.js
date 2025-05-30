@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const countdown = document.querySelector(".countdown");
 	const scoreContainer = document.querySelector(".score-container");
 	const roundContainer = document.querySelector(".round");
+	const messageContainer = document.querySelector(".message-container");
 
 	let playerScore = 0;
 	scoreDisplay.innerText = playerScore;
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		scoreContainer.style.display = "flex";
 		roundContainer.innerText = roundCount;
 		countDown();
+		messageContainer.style.display = "none";
 		startBtn.style.display = "none";
 		await delay(3000);
 

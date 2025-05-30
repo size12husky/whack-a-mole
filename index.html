@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Whack-A-Mole</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="nails">
+				<span class="nail"></span>
+				<span class="nail"></span>
+			</div>
+
+			<h1>Whack-A-Mole</h1>
+			<p>
+				Whack 10 moles to move to the next round! Moles get faster as you move
+				through rounds!
+			</p>
+		</header>
+
+		<div class="round-container">
+			<h2>Round <span class="round"></span></h2>
+		</div>
+		<div class="countdown-container">
+			<p class="countdown"></p>
+		</div>
+
+		<div class="grid-container">
+			<div class="mole-grid">
+				<div class="mole" data-index="1"></div>
+				<div class="mole" data-index="2"></div>
+				<div class="mole" data-index="3"></div>
+				<div class="mole" data-index="4"></div>
+				<div class="mole" data-index="5"></div>
+				<div class="mole" data-index="6"></div>
+				<div class="mole" data-index="7"></div>
+				<div class="mole" data-index="8"></div>
+				<div class="mole" data-index="9"></div>
+				<div class="mole" data-index="10"></div>
+				<div class="mole" data-index="11"></div>
+				<div class="mole" data-index="12"></div>
+				<div class="mole" data-index="13"></div>
+				<div class="mole" data-index="14"></div>
+				<div class="mole" data-index="15"></div>
+				<div class="mole" data-index="16"></div>
+			</div>
+		</div>
+
+		<div class="start-btn-container">
+			<button id="start-button">Start</button>
+		</div>
+
+		<div class="message-container">
+			<p>Nice! You got all the moles! Ready for the next round?</p>
+		</div>
+
+		<div class="score-container">
+			<h2>Player Score: <span class="score"></span></h2>
+		</div>
+	</body>
+</html>

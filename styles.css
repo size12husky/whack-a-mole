@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+.peralta-regular {
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "Peralta";
+    background: radial-gradient(circle, #90FF90, #32CD32, #228B22);
+    color: white;
+    paint-order: stroke fill;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 4px;
+}
+
+.nails {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nail {
+    height: 2%;
+    width: 2%;
+    background: silver;
+    display: block;
+}
+
+header {
+    text-align: center;
+    border: 8px solid #654321;
+    background: #654321;
+    border-radius: 2
+}
+
+.round-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mole-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+.mole {
+    border-radius: 100px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.mole:hover {
+    cursor: pointer;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 2em;
+}
+
+.start-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+#start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #654321;
+    color: white;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.message-container {
+    display: none;
+    justify-content: center;
+}
+
+
+.countdown {
+    display: none;
+    font-size: 20em;
+    margin: 0 auto;
+    position: absolute;
+    left: 38%;
+    z-index: 1000;
+    color: rgba(0, 68, 255, 0.681);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 8px;
+}

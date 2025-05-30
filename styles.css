@@ -100,13 +100,14 @@ header {
     justify-content: center;
 }
 
-
 .countdown {
     display: none;
     font-size: 20em;
     margin: 0 auto;
-    position: absolute;
-    left: 38%;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
     color: rgba(0, 68, 255, 0.681);
     -webkit-text-stroke-color: white;
